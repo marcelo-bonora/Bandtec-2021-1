@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Exercicio_1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="315.0">Exercicio_1.ControleBonus</node>
+    <node x="0.0" y="104.0">Exercicio_1.Professor</node>
+    <node x="247.0" y="104.0">Exercicio_1.Coordenador</node>
+    <node x="175.75" y="0.0">Exercicio_1.Bonus_1</node>
+    <node x="284.0" y="315.0">Exercicio_1.TesteBonus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Exercicio_1.Coordenador" target="Exercicio_1.Bonus_1">
+      <point x="0.0" y="-83.0" />
+      <point x="371.0" y="79.0" />
+      <point x="275.5" y="79.0" />
+      <point x="33.25" y="27.0" />
+    </edge>
+    <edge source="Exercicio_1.Professor" target="Exercicio_1.Bonus_1">
+      <point x="0.0" y="-83.0" />
+      <point x="113.5" y="79.0" />
+      <point x="209.0" y="79.0" />
+      <point x="-33.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="138.0" y="130.0" />
+  <SelectedNodes>
+    <node>Exercicio_1.ControleBonus</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
