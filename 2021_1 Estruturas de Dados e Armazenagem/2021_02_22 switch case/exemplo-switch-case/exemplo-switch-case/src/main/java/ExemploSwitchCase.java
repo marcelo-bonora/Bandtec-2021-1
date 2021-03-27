@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExemploSwitchCase {
+public class    ExemploSwitchCase {
 
     public static void main(String[] args) {
 
