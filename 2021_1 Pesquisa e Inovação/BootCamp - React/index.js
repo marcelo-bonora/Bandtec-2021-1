@@ -32,9 +32,9 @@ function App() {
     return (
         <React.Fragment>
             <h1>Vote no seu favorito</h1>
-            <Contador titulo="React" />
-            <Contador titulo="Angular" />
-            <Contador titulo="VueJS" />
+            <Contador titulo="Obelisco, o Atormentador" />
+            <Contador titulo="Slifer, o Dragão Celeste" />
+            <Contador titulo="O Dragão Alado de Rá" />
         </React.Fragment>
     );
 }
