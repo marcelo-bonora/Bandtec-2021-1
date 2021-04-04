@@ -18,8 +18,12 @@ public class FilmeController {
     @Autowired
     private FilmeRepository repository;
 
+/*
+@Valid -> Faz com que erros de validação gerem status 400 na resposta
+SEM ela os erros de validação não são retornados e a resposta vai com status 500!
+ */
     @PostMapping
-    public ResponseEntity postFilme(@RequestBody @Valid Filme novoFilme){
+    public ResponseEntity postFilme(@RequestBody @Valid Filme novoFilme) {
         repository.save(novoFilme);
         return ResponseEntity.status(201).build();
     }
