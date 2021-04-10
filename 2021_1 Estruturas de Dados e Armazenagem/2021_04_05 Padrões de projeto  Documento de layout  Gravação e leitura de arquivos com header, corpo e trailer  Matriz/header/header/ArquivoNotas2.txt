@@ -1,0 +1,5 @@
+00NOTA2020209-04-2021 22:09:2701
+02ADS  01181070Maria Aparecida da Silva                          Banco de Dados                          07,50010
+02BD   01181080José Oliveira                                     Algoritmos                              05,75007
+02REDES01181090Fulano Teixeira                                   Segurança                               08,00015
+010000000003

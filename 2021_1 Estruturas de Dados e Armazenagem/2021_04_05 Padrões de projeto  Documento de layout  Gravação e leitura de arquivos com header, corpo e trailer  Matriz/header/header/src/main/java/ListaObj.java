@@ -8,7 +8,7 @@ public class ListaObj<T> {
     // Recebe o tamanho máximo da lista
     public ListaObj(int tam) {
         vetor= (T[]) new Object[tam];    // Cria o vetor com o tamanho máximo recebido
-        nroElem= 0 ;                     // Zera o número de elementos
+        nroElem= 0;                     // Zera o número de elementos
     }
 
     // Métodos
